@@ -3,13 +3,10 @@ PRODUCT_AAPT_PREF_CONFIG := xlarge mdpi
 
 # USB config contains product-specific USB id
 PRODUCT_COPY_FILES += \
-    device/acer/a510/prebuilt/ramdisk/init.acer.usb.rc:root/init.acer.usb.rc
+    device/acer/a510/prebuilt/ramdisk/init.picasso.usb.rc:root/init.picasso.usb.rc
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=160
-
-# So init files are copied properly in device_base.mk
-PRODUCT_BOOTLOADER := picasso_m
 
 PRODUCT_COPY_FILES += \
     device/acer/a510/prebuilt/ramdisk/init.picasso_m.rc:root/init.picasso_m.rc \
