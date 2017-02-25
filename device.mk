@@ -1,6 +1,3 @@
-PRODUCT_AAPT_CONFIG := normal large xlarge mdpi hdpi
-PRODUCT_AAPT_PREF_CONFIG := xlarge mdpi
-
 # USB config contains product-specific USB id
 PRODUCT_COPY_FILES += \
     device/acer/a510/prebuilt/ramdisk/init.picasso.usb.rc:root/init.picasso.usb.rc
